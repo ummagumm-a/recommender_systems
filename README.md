@@ -12,11 +12,16 @@ The efficacy of these models is measured against their ability to predict user p
 
 An exploration of the MovieLens dataset reveals:
 
-- **Genre Distribution**: A histogram showcasing the prevalence of genres across movies.
-- **User Age Distribution**: Highlighting the demographic's inclination towards younger age groups.
+- **Genre Distribution**: A histogram showcasing the prevalence of genres across movies.  
+![alt text](https://github.com/ummagumm-a/recommender_systems/blob/main/reports/genre_dist.png)   
+- **User Age Distribution**: Highlighting the demographic's inclination towards younger age groups.  
+![alt text](https://github.com/ummagumm-a/recommender_systems/blob/main/reports/age_dist.png)   
 - **Rating Distribution**: Indicating users' propensity to award higher ratings, with a significant skew towards the 4-star rating.
+![alt text](https://github.com/ummagumm-a/recommender_systems/blob/main/reports/rank_dist.png)
 
 Notably, the number of ratings per user and per movie exhibits a **heavy-tailed distribution**, signifying a concentration of ratings among a limited subset of users and movies. This phenomenon poses a challenge, particularly for movies and users with sparse ratings, hinting at an *almost-cold start* problem in recommendation systems.
+![alt text](https://github.com/ummagumm-a/recommender_systems/blob/main/reports/ratings_per_movie.png)   
+![alt text](https://github.com/ummagumm-a/recommender_systems/blob/main/reports/ratings_per_user.png)   
 
 # Model Implementation
 
@@ -36,7 +41,7 @@ A critical analysis uncovers:
 
 # Training Process
 
-The models undergo meticulous training, with hyperparameters fine-tuned for optimal performance. The training phase is vigilant in splitting the dataset to affirm the model's ability to generalize beyond the training data.
+The models undergo meticulous training, with hyperparameters fine-tuned for optimal performance. The training phase is cautious in splitting the dataset to affirm the model's ability to generalize beyond the training data.
 
 # Evaluation
 
