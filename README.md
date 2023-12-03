@@ -49,7 +49,7 @@ The models are assessed using metrics tailored for recommendation systems:
 
 - **Hit Rate**: Evaluates whether the recommended set contains items of interest.
 - **ARHR**: Weighs the ranking of successful recommendations.
-- **iNDCG**: Provides a normalized score reflecting the quality of the recommendation list ordering.
+- **NDCG**: Provides a normalized score reflecting the quality of the recommendation list ordering.
 
 These are juxtaposed with a random rating predictor's performance. The metrics yield the following scores:
 
